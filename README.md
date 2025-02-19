@@ -24,23 +24,23 @@ Yükleme işleminden sonra dosya yollarını PATH dizinine ekleyin.
 
 PATH değişkenine ekledikten sonra kurulumu kontrol edin. Komut satırına:
 
-python --version
-nmap --version
+$ python --version
+$ nmap --version
 
 Yazarak kontrol edebilirsiniz. Sürüm numarası veriyorsa kurulum tamamlanmıştır.
 
 Projeyi klonlayın:
 
-git clone https://github.com/yunsdigital/cbnest.git
-cd cbnest
+$ git clone https://github.com/yunsdigital/cbnest.git
+$ cd cbnest
 
 Sonrasında modülleri yüklemek için requirements.txt dosyasını kullanın.
 
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 
 Modül yükleme işleminden sonra programı çalıştırın:
 
-python port_scanner.py
+$ python port_scanner.py
 
 Hedef IP veya domain girin ve taramayı başlatın.
 
