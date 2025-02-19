@@ -9,7 +9,7 @@ from colorama import Fore, Style, init
 
 init()
 
-ascii_banner = pyfiglet.figlet_format("CBNEST Port Scanner")
+ascii_banner = pyfiglet.figlet_format("CBNEST Scanner")
 print(Fore.CYAN + ascii_banner + Style.RESET_ALL)
 
 print(Fore.YELLOW + "[+] Gelişmiş Port & Güvenlik Açığı Tarayıcı" + Style.RESET_ALL)
