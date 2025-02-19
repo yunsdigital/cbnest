@@ -2,10 +2,13 @@ import socket
 import requests
 import nmap
 import time
+import os
 import threading
 import pyfiglet
 from tqdm import tqdm
 from colorama import Fore, Style, init
+
+os.system('cls' if os.name == 'nt' else 'clear')
 
 init()
 
